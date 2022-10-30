@@ -1,0 +1,307 @@
+
+body{
+    background-color: #EEF2F5;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*nav bar start*/
+.navbar{
+    width: 100%;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+.nav{
+    width: 80%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.nav ul{
+    margin: 0;
+}
+.nav ul li{
+    display: inline-block;
+    position: relative;
+}
+
+
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Calibri;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.navlink{
+    display: flex;
+    align-items: center;
+}
+
+.ism{
+    font-family: Calibri;
+}
+
+.nav p{
+    font-size: 14px;
+    color: darkgray;
+    margin: 0;
+}
+
+.images{
+    display: flex;
+    align-items: center;
+
+}
+
+.images a{
+    margin-left: 50px;
+}
+
+.images img{
+    margin: 0 10px;
+}
+
+.chiziq{
+    width: 1px;
+    height: 40px;
+    background-color: darkgray;
+    margin: 0 5px;
+}
+/*navbar end*/
+  /*header start-->*/
+.header{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 30px 10%;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.card-1{
+    padding: 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.card-1 p1{
+    font-family: Calibri;
+    font-size: 14px;
+}
+
+.card-1 h1{
+    text-align: center;
+    font-family: Calibri;
+    font-size: 25px;
+}
+
+.card-1 a p{
+    font-family: Calibri;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.test-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test-1 p{
+    color: #E10C33;
+}
+  /*header end-->*/
+.main{
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.main h1:nth-child(1){
+    margin-top: 100px;
+    text-align: center;
+    font-family: Calibri;
+}
+
+.kurs-1{
+    width: 30%;
+    height: 350px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.kurs-1 h3{
+    font-family: Calibri;
+    font-size: 25px;
+    display: inline-block;
+    color: black;
+}
+
+.kurs-1 a h3:hover{
+    color: #1DD1A1;
+}
+
+.section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section h2{
+    font-size: 30px;
+    font-family: Calibri;
+}
+
+.section p{
+    width: 90px;
+    height: 28px;
+    border-radius: 3px;
+    border: 1px solid black;
+    font-family: Calibri;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.section p:hover{
+    color: white;
+    background-color: #1DD1A1;
+    border: 1px solid #1DD1A1;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    width: 31%;
+    height: 380px;
+    border-radius: 5px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.card-1\.1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: -40px;
+}
+
+.card h2{
+    padding-left: 30px;
+    font-family: Calibri;
+    font-size: 30px;
+    box-sizing: border-box;
+}
+
+.card-1\.1 span:nth-child(1){
+    padding-left: 30px;
+}
+
+.card-1\.1 span{
+    font-family: Calibri;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+.card-1\.1 p{
+    font-family: Calibri;
+    font-size: 20px;
+    color: darkgray;
+}
+
+.parag{
+    padding: 0 30px;
+}
+
+.parag p2{
+    font-family: Calibri;
+}
+
+.kurs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    background-color: #1DD1A1;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.kurs p{
+    color: white;
+    font-family: Calibri;
+    display: inline-block;
+}
+
+.footer {
+    width: 100%;
+    margin-top: 100px;
+    background-color: #093845;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo-1{
+    margin-left: 10%;
+    margin-top: 35px;
+}
+
+.logo-1 a p{
+    display: inline-block;
+    margin-left: 0.1%;
+}
+
+.footer p{
+    color: darkgrey;
+    font-size: 13px;
+}
+
+.footer ul li{
+  display: inline-block;
+    margin: 0 10px;
+}
+
+.footer ul li a{
+    color: white;
+    font-family: Calibri;
+    text-decoration: none;
+}
+
+.ul{
+    margin-left: -150px;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.link img{
+    margin: 0 10px;
+}
+/*main end*/
